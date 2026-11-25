@@ -1,0 +1,27 @@
+import { About } from '@/components/portfolio/about'
+import { Contact } from '@/components/portfolio/contact'
+import { Education } from '@/components/portfolio/education'
+import { Footer } from '@/components/portfolio/footer'
+import { Hero } from '@/components/portfolio/hero'
+import { Interests } from '@/components/portfolio/interests'
+import { Navbar } from '@/components/portfolio/navbar'
+import { Projects } from '@/components/portfolio/projects'
+import { Skills } from '@/components/portfolio/skills'
+
+export default function Page() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <Interests />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+}
